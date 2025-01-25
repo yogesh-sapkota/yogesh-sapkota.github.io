@@ -1,0 +1,52 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%; /* Full height of the viewport */
+  }
+  
+  body {
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Ensures items stack vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    background-color: #f9f9f9; /* Light background color */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center text inside */
+  }
+  
+  main {
+    max-width: 600px; /* Limit content width */
+    line-height: 1.6; /* Improve readability */
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #444;
+  }
+  
