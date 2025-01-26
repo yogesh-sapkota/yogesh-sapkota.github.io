@@ -49,4 +49,10 @@
     margin-top: 20px;
     color: #444;
   }
-  
+
+
+  .circular-favicon {
+  width: 32px; /* Adjust size */
+  height: 32px; /* Make it a square */
+  border-radius: 50%; /* Makes it circular */
+}
